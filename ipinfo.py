@@ -6,7 +6,7 @@
 from urllib2 import urlopen
 from json import load
 
-url  = r"http://ipinfo.io/json"
+url  = "http://ipinfo.io/json"
 res  = urlopen(url)
 data = load(res)
 
